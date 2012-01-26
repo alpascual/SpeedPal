@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7689FF361452492D00F99A3D /* VoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689FF351452492D00F99A3D /* VoiceController.m */; };
+		7689FF391452497200F99A3D /* VoiceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7689FF381452497200F99A3D /* VoiceController.xib */; };
+		7689FF3D14524D0B00F99A3D /* 65-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 7689FF3C14524D0B00F99A3D /* 65-note.png */; };
+		76A2591F13A3243B004F5934 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2591E13A3243B004F5934 /* UIKit.framework */; };
+		76A2592113A3243B004F5934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2592013A3243B004F5934 /* Foundation.framework */; };
+		76A2592313A3243B004F5934 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2592213A3243B004F5934 /* CoreGraphics.framework */; };
+		76A2592913A3243B004F5934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A2592713A3243B004F5934 /* InfoPlist.strings */; };
+		76A2592C13A3243B004F5934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2592B13A3243B004F5934 /* main.m */; };
+		76A2592F13A3243B004F5934 /* SpeedPalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2592E13A3243B004F5934 /* SpeedPalAppDelegate.m */; };
+		76A2593213A3243B004F5934 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A2593013A3243B004F5934 /* MainWindow.xib */; };
+		76A2593513A3243B004F5934 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2593413A3243B004F5934 /* FirstViewController.m */; };
+		76A2593813A3243B004F5934 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2593713A3243B004F5934 /* SecondViewController.m */; };
+		76A2593B13A3243B004F5934 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A2593913A3243B004F5934 /* FirstView.xib */; };
+		76A2593E13A3243B004F5934 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A2593C13A3243B004F5934 /* SecondView.xib */; };
+		76A2594513A32A20004F5934 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2594413A32A20004F5934 /* iAd.framework */; };
+		76A2594913A32E71004F5934 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A2594713A32E71004F5934 /* 20-gear2.png */; };
+		76A2594A13A32E71004F5934 /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A2594813A32E71004F5934 /* 63-runner.png */; };
+		76A2595013A3324B004F5934 /* Speed.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2594F13A3324B004F5934 /* Speed.m */; };
+		76A2595213A33275004F5934 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2595113A33275004F5934 /* CoreLocation.framework */; };
+		76A2596313A430E7004F5934 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A2596213A430E7004F5934 /* AudioToolbox.framework */; };
+		76AE6B4C13A454F400F8B8E9 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AE6B4813A454F400F8B8E9 /* default.png */; };
+		76AE6B4D13A454F400F8B8E9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AE6B4913A454F400F8B8E9 /* Icon-72.png */; };
+		76AE6B4E13A454F400F8B8E9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AE6B4A13A454F400F8B8E9 /* Icon.png */; };
+		76AE6B4F13A454F400F8B8E9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AE6B4B13A454F400F8B8E9 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7689FF341452492D00F99A3D /* VoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceController.h; path = SpeedPal/VoiceController.h; sourceTree = SOURCE_ROOT; };
+		7689FF351452492D00F99A3D /* VoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoiceController.m; path = SpeedPal/VoiceController.m; sourceTree = SOURCE_ROOT; };
+		7689FF381452497200F99A3D /* VoiceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceController.xib; sourceTree = "<group>"; };
+		7689FF3C14524D0B00F99A3D /* 65-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note.png"; sourceTree = "<group>"; };
+		76A2591A13A3243B004F5934 /* speedpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A2591E13A3243B004F5934 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76A2592013A3243B004F5934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76A2592213A3243B004F5934 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76A2592613A3243B004F5934 /* SpeedPal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedPal-Info.plist"; sourceTree = "<group>"; };
+		76A2592813A3243B004F5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A2592A13A3243B004F5934 /* SpeedPal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedPal-Prefix.pch"; sourceTree = "<group>"; };
+		76A2592B13A3243B004F5934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A2592D13A3243B004F5934 /* SpeedPalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedPalAppDelegate.h; sourceTree = "<group>"; };
+		76A2592E13A3243B004F5934 /* SpeedPalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedPalAppDelegate.m; sourceTree = "<group>"; };
+		76A2593113A3243B004F5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		76A2593313A3243B004F5934 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		76A2593413A3243B004F5934 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		76A2593613A3243B004F5934 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		76A2593713A3243B004F5934 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		76A2593A13A3243B004F5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		76A2593D13A3243B004F5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		76A2594413A32A20004F5934 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		76A2594713A32E71004F5934 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		76A2594813A32E71004F5934 /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		76A2594E13A3324B004F5934 /* Speed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speed.h; sourceTree = "<group>"; };
+		76A2594F13A3324B004F5934 /* Speed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speed.m; sourceTree = "<group>"; };
+		76A2595113A33275004F5934 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76A2596113A3BF51004F5934 /* SpeedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedProtocol.h; sourceTree = "<group>"; };
+		76A2596213A430E7004F5934 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		76AE6B4813A454F400F8B8E9 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		76AE6B4913A454F400F8B8E9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		76AE6B4A13A454F400F8B8E9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		76AE6B4B13A454F400F8B8E9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A2591713A3243B004F5934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2596313A430E7004F5934 /* AudioToolbox.framework in Frameworks */,
+				76A2595213A33275004F5934 /* CoreLocation.framework in Frameworks */,
+				76A2594513A32A20004F5934 /* iAd.framework in Frameworks */,
+				76A2591F13A3243B004F5934 /* UIKit.framework in Frameworks */,
+				76A2592113A3243B004F5934 /* Foundation.framework in Frameworks */,
+				76A2592313A3243B004F5934 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A2590F13A3243B004F5934 = {
+			isa = PBXGroup;
+			children = (
+				76A2596213A430E7004F5934 /* AudioToolbox.framework */,
+				76A2595113A33275004F5934 /* CoreLocation.framework */,
+				76A2594413A32A20004F5934 /* iAd.framework */,
+				76A2592413A3243B004F5934 /* SpeedPal */,
+				76A2591D13A3243B004F5934 /* Frameworks */,
+				76A2591B13A3243B004F5934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A2591B13A3243B004F5934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A2591A13A3243B004F5934 /* speedpal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A2591D13A3243B004F5934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A2591E13A3243B004F5934 /* UIKit.framework */,
+				76A2592013A3243B004F5934 /* Foundation.framework */,
+				76A2592213A3243B004F5934 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A2592413A3243B004F5934 /* SpeedPal */ = {
+			isa = PBXGroup;
+			children = (
+				76A2594613A32E71004F5934 /* Resource */,
+				76A2592D13A3243B004F5934 /* SpeedPalAppDelegate.h */,
+				76A2592E13A3243B004F5934 /* SpeedPalAppDelegate.m */,
+				76A2593013A3243B004F5934 /* MainWindow.xib */,
+				76A2593313A3243B004F5934 /* FirstViewController.h */,
+				76A2593413A3243B004F5934 /* FirstViewController.m */,
+				76A2593613A3243B004F5934 /* SecondViewController.h */,
+				76A2593713A3243B004F5934 /* SecondViewController.m */,
+				7689FF341452492D00F99A3D /* VoiceController.h */,
+				7689FF351452492D00F99A3D /* VoiceController.m */,
+				76A2593913A3243B004F5934 /* FirstView.xib */,
+				76A2593C13A3243B004F5934 /* SecondView.xib */,
+				7689FF381452497200F99A3D /* VoiceController.xib */,
+				76A2592513A3243B004F5934 /* Supporting Files */,
+				76A2594E13A3324B004F5934 /* Speed.h */,
+				76A2594F13A3324B004F5934 /* Speed.m */,
+				76A2596113A3BF51004F5934 /* SpeedProtocol.h */,
+			);
+			path = SpeedPal;
+			sourceTree = "<group>";
+		};
+		76A2592513A3243B004F5934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A2592613A3243B004F5934 /* SpeedPal-Info.plist */,
+				76A2592713A3243B004F5934 /* InfoPlist.strings */,
+				76A2592A13A3243B004F5934 /* SpeedPal-Prefix.pch */,
+				76A2592B13A3243B004F5934 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A2594613A32E71004F5934 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7689FF3C14524D0B00F99A3D /* 65-note.png */,
+				76AE6B4813A454F400F8B8E9 /* default.png */,
+				76AE6B4913A454F400F8B8E9 /* Icon-72.png */,
+				76AE6B4A13A454F400F8B8E9 /* Icon.png */,
+				76AE6B4B13A454F400F8B8E9 /* Icon@2x.png */,
+				76A2594713A32E71004F5934 /* 20-gear2.png */,
+				76A2594813A32E71004F5934 /* 63-runner.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A2591913A3243B004F5934 /* SpeedPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A2594113A3243B004F5934 /* Build configuration list for PBXNativeTarget "SpeedPal" */;
+			buildPhases = (
+				76A2591613A3243B004F5934 /* Sources */,
+				76A2591713A3243B004F5934 /* Frameworks */,
+				76A2591813A3243B004F5934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedPal;
+			productName = SpeedPal;
+			productReference = 76A2591A13A3243B004F5934 /* speedpal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A2591113A3243B004F5934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Al;
+			};
+			buildConfigurationList = 76A2591413A3243B004F5934 /* Build configuration list for PBXProject "SpeedPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76A2590F13A3243B004F5934;
+			productRefGroup = 76A2591B13A3243B004F5934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A2591913A3243B004F5934 /* SpeedPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A2591813A3243B004F5934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2592913A3243B004F5934 /* InfoPlist.strings in Resources */,
+				76A2593213A3243B004F5934 /* MainWindow.xib in Resources */,
+				76A2593B13A3243B004F5934 /* FirstView.xib in Resources */,
+				76A2593E13A3243B004F5934 /* SecondView.xib in Resources */,
+				76A2594913A32E71004F5934 /* 20-gear2.png in Resources */,
+				76A2594A13A32E71004F5934 /* 63-runner.png in Resources */,
+				76AE6B4C13A454F400F8B8E9 /* default.png in Resources */,
+				76AE6B4D13A454F400F8B8E9 /* Icon-72.png in Resources */,
+				76AE6B4E13A454F400F8B8E9 /* Icon.png in Resources */,
+				76AE6B4F13A454F400F8B8E9 /* Icon@2x.png in Resources */,
+				7689FF391452497200F99A3D /* VoiceController.xib in Resources */,
+				7689FF3D14524D0B00F99A3D /* 65-note.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A2591613A3243B004F5934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2592C13A3243B004F5934 /* main.m in Sources */,
+				76A2592F13A3243B004F5934 /* SpeedPalAppDelegate.m in Sources */,
+				76A2593513A3243B004F5934 /* FirstViewController.m in Sources */,
+				76A2593813A3243B004F5934 /* SecondViewController.m in Sources */,
+				76A2595013A3324B004F5934 /* Speed.m in Sources */,
+				7689FF361452492D00F99A3D /* VoiceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A2592713A3243B004F5934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A2592813A3243B004F5934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76A2593013A3243B004F5934 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A2593113A3243B004F5934 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		76A2593913A3243B004F5934 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A2593A13A3243B004F5934 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		76A2593C13A3243B004F5934 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A2593D13A3243B004F5934 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A2593F13A3243B004F5934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A2594013A3243B004F5934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76A2594213A3243B004F5934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedPal/SpeedPal-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpeedPal/SpeedPal-Info.plist";
+				PRODUCT_NAME = speedpal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76A2594313A3243B004F5934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedPal/SpeedPal-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpeedPal/SpeedPal-Info.plist";
+				PRODUCT_NAME = speedpal;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76AE6B5913A45A0000F8B8E9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		76AE6B5A13A45A0000F8B8E9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedPal/SpeedPal-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpeedPal/SpeedPal-Info.plist";
+				PRODUCT_NAME = speedpal;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A2591413A3243B004F5934 /* Build configuration list for PBXProject "SpeedPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2593F13A3243B004F5934 /* Debug */,
+				76A2594013A3243B004F5934 /* Release */,
+				76AE6B5913A45A0000F8B8E9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A2594113A3243B004F5934 /* Build configuration list for PBXNativeTarget "SpeedPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2594213A3243B004F5934 /* Debug */,
+				76A2594313A3243B004F5934 /* Release */,
+				76AE6B5A13A45A0000F8B8E9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A2591113A3243B004F5934 /* Project object */;
+}
