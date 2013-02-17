@@ -29,6 +29,10 @@
 {
     [super viewDidLoad];
     
+    UIImage *image = [UIImage imageNamed:@"baby-blue-solid.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    [self.view insertSubview:imageView atIndex:1];
+    
     self.arrayTimes = [[NSMutableArray alloc] init];
     [self.arrayTimes addObject:@"Never"];
     [self.arrayTimes addObject:@"1 Minute"];

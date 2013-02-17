@@ -28,7 +28,9 @@
     [self.arraySpeeds addObject:@"80"];
     [self.arraySpeeds addObject:@"85"];
     
-    
+    UIImage *image = [UIImage imageNamed:@"baby-blue-solid.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    [self.view insertSubview:imageView atIndex:1];
 }
 
 

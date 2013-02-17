@@ -33,6 +33,10 @@
     self.speed.speedDelegate = self;
     [self.speed startReadingLocation];
     
+    UIImage *image = [UIImage imageNamed:@"leather.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];    
+    [self.view insertSubview:imageView atIndex:1];
+    
     bIntervalSet = NO;
     self.intervalTimer = [NSTimer scheduledTimerWithTimeInterval: 1.0 target: self selector: @selector(checktimerCallback:) userInfo: nil repeats: YES];    
     
